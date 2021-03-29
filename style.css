@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 800px;
+    height: 850px;
     margin: 20px;
     padding: 20px;
 }
@@ -32,8 +32,9 @@
     
     height: 100px;
     width: auto;
+    font-size: 40px;
     color: rgb(43, 220, 226);
-    text-shadow: 2px 2px 3px yellowgreen;
+    text-shadow: 2px 2px 3px chartreuse;
 }
 .header{
     justify-content: center;
@@ -41,7 +42,6 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
-/* Customize the label (the container) */
 .label {
     display: block;
     position: relative;
@@ -49,4 +49,10 @@
     margin-bottom: 12px;
     font-size: 50px;
     color: white;
+    text-shadow:4px 4px 4px rgb(0, 255, 13);
+}
+.question{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-shadow:4px 4px 4px blanchedalmond;
 }

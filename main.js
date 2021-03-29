@@ -5,12 +5,14 @@ $(document).ready(function (){
         if (selectedValue == "show") {  
             $("div#container").fadeIn();
             $(":radio, label").hide(); 
+            $(".question").hide();
         }  
         else {  
             if (selectedValue == "no") {  
                 $("div#container").hide();
                 alert("Thanks!! Please don't come again");
                 $(":radio, label").hide(); 
+                $(".question").hide();
                 $(".refresh").show();
             }  
         }  
