@@ -1,0 +1,52 @@
+.wrapper{
+    background: url(wallpapers.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 800px;
+    margin: 20px;
+    padding: 20px;
+}
+.portal{
+    display: flex;
+    
+}
+.getMorty, #new, .refresh{
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+    margin: 20px;
+}
+#morty, #rick{
+    margin: 0 20px;
+    background-color: white;
+    width: 340px;
+    height: 500px;
+    border-radius: 8px;
+}
+#new, #morty, .refresh{
+    display: none;
+}
+.heading{
+    
+    height: 100px;
+    width: auto;
+    color: rgb(43, 220, 226);
+    text-shadow: 2px 2px 3px yellowgreen;
+}
+.header{
+    justify-content: center;
+    background: url(porta.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* Customize the label (the container) */
+.label {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    font-size: 50px;
+    color: white;
+}
